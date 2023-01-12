@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote
+    name="origin"
+    fetch=".."
+    review=".."
+  />
+  <default
+    remote="origin"
+  />
+  <project name="genode" path="genode" revision="master"/>
+  <project name="genode-imx" path="genode-imx" revision="master"/>
+  <project name="genode-world" path="genode-world" revision="master"/>
+</manifest>
